@@ -14,8 +14,6 @@ class PointsForPlace:
             return self.points
         
 class PointsForMeters:
-    def __init__(self):
-        self.points = 0
 
     @staticmethod
     def get_points_for_meters(meters):
